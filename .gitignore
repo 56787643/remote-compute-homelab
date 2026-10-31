@@ -1,0 +1,27 @@
+# Secrets and keys
+*.key
+*.pem
+*.ppk
+id_rsa*
+id_ed25519*
+*.pub
+authorized_keys
+administrators_authorized_keys
+.env
+*.env
+secrets/
+*.token
+
+# Raw configs and logs that may contain identifying details
+sshd_config.raw
+*.log
+*.pcap
+*.pcapng
+
+# Unredacted screenshots (put cleaned ones in images/)
+screenshots-raw/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
